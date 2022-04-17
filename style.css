@@ -6,11 +6,6 @@ body {
     padding: 0%;
 }
 
-.leftbar {
-    grid-column: 1/2;
-    grid-row: 1/3;
-    background-color: aqua;
-}
 
 .header {
     grid-column: 2/4;
@@ -118,11 +113,11 @@ li {
 
 .main {
     display: grid;
-    border: 1px solid blue;
     grid-template-rows: min-content auto;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #f3f4f6;
+    padding-bottom: 50px;
 }
 
 .main > div {
@@ -160,4 +155,84 @@ li {
     padding-left: 20px;
     color: #6b7280;
     font-size: 17px;
+}
+
+.rightbar {
+    background-color: #f3f4f6;
+    display: grid;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+.rightbar1 {
+    display: grid;
+    grid-template-rows: min-content auto;
+}
+
+.rightbar1 > div {
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.rightbar1 > div > div {
+    margin: 20px;
+}
+
+.community {
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.rightbar1 h5 {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.rightbar1 p {
+    margin-top: 2px;
+    color: #6b7280;
+}
+
+
+.rightbar2 {
+    display: grid;
+    grid-template-rows: min-content auto;
+}
+
+.rightbar2 > div {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.rightbar2 > div > div {
+    display: grid;
+    grid-template-columns: min-content auto;
+    column-gap: 20px;
+}
+
+.rightbar2 > div > div > img {
+    grid-row: 1/3;
+    padding-left: 30px;
+}
+
+.content {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.leftbar {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: #0ea5e9;
+}
+
+.rightbar h4 {
+    margin-bottom: 10px;
 }
