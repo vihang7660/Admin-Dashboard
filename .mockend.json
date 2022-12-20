@@ -10,5 +10,6 @@
     "post": {
       "belongsTo": "Post"
     }
-  }
+  },
+  "City": {"shahar": "ghar"}
 }
