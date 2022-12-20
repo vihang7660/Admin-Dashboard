@@ -1,6 +1,6 @@
 {
   "Post": {
-    "title": "89",
+    "title": {"city": "chhindwara"},
     "comments": {
       "hasMany": "Comment"
     }
